@@ -1,0 +1,310 @@
+html{
+  overflow-y: hidden;
+}
+
+.aboutus{
+  .aboutus-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+}
+
+.container{
+    width: 100%;
+    clear: both;
+    overflow-y: auto;
+    height: 700px;
+    max-width: calc(100% - 20px);
+    padding-bottom: 100px;
+    margin-right: 0px;
+
+    .landing-page-btns, .btn-group{
+      margin-left: calc(50% - 200px);
+      width: 400px;
+    }
+
+    .section-category{
+      float: left;
+      border: 2px solid white;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .section-title{
+      font-size: 16px;
+      text-align: center;
+    }
+    .ant-btn-primary{
+        margin: 10px;
+    }
+    .ant-form-item{
+        margin-bottom: 10px;
+    }
+}
+.provider-form{
+    width: 600px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.search-status{
+  clear: both;
+}
+
+.feed-need-logo{
+  
+    width: 145px;
+    opacity: 0.85;
+    height: 80px;
+    background-size: 100% 100%;
+}
+.request-table{
+  margin-top: 20px;
+  width: 90%;
+  min-width: 650px;
+  overflow: auto;
+}
+
+.helping-hand-table{
+  width: 500px;
+  float: left;
+  position: absolute;
+  left: 600px;
+  top: 70px;
+}
+
+.confirm-helping-hand-btn {
+  margin-bottom:80px;
+}
+
+.log-out-btn{
+    margin-left: 30px;
+  }
+  
+.back-game-btn{
+    margin-left: 10px;
+}
+.navbar-item{
+    font-size: 24px;
+}
+.new-line{
+    clear: both;
+  }
+
+.navbar-start{
+    float: left;
+}
+  
+.form-name{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.auth-forms{
+  max-width: 500px;
+}
+  
+.primary-button{
+    padding: 5px 10px;
+    background-color: lightblue !important;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .primary-button:hover {
+    border: 1px solid gray;
+    background-color: #aad8ff !important;
+  }
+
+  .log-out-btn{
+    margin-left: 30px;
+  }
+  
+  .back-game-btn{
+    margin-left: 10px;
+  }
+  
+
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 10px 5px;
+    padding-bottom: 0px;
+  }
+
+
+  .theme-switch{
+    margin-right: 10px;
+    float: left;
+  }
+
+  .ant-switch{
+    color: #222;
+  }
+  
+
+  /**************  Dark Theme *************/
+
+  html {
+    // background-color: #222 !important;
+   
+  }
+  body #app {
+  background-size: 100% 100%;
+  .dark-modal{
+    background-color: #222;
+    opacity: 0.85;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
+  .dark-theme{
+  
+    height: 100%;
+    .navbar-menu{
+        // background-color: #222;
+    }
+    .navbar{
+      background: none;
+    }
+    color: #ddd;
+    .ant-form-item-label > label, h1, h2, h3, h4, h5, h6, .ant-table, .ant-form, .ant-form-item, .navbar-item, div, span{
+        color: #ddd;
+    }
+    .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+    input, .ant-btn span, .ant-form-item-control span, .ant-form-item-control .ant-select-selection-selected-value {
+      color: #222 !important;
+    }
+
+    .ant-table-thead .ant-table-header-column span{
+      color: #222 !important;
+    }
+    .ant-btn {
+
+      margin: 8px 5px;
+      padding: 0px 2px;
+    }
+
+    .ant-form-item-control{
+      line-height: 30px;
+    }
+
+    .ant-btn-primary {
+        background-color: lightgray;
+    }
+    .ant-btn-primary.active{
+        background-color: #00D1E1;
+    }
+
+    .ant-btn.custom-links{
+      span{
+        color: #eee !important;
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .landing-page-btns .ant-btn.custom-links {
+      span {
+        font-size: 20px !important;
+      }
+    }
+    
+
+    .ant-btn.custom-links.active{
+      span{
+        color: rgb(160, 191, 58) !important;
+      }
+    }
+  }
+
+}
+
+.search-status{
+.ant-input-number {
+  width: 200px; 
+}
+}
+
+
+/************** Caruousel ****************/
+
+/* For demo */
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+
+
+
+
+  
+  @media screen and (max-width: 720px) {
+    .navbar-menu{
+      display: block !important;
+      background: none;
+    }
+
+    .container {
+      max-width: calc(100% - 10px);
+      margin-left: 10px;
+    }
+
+    .aboutus{
+      .aboutus-title{
+        font-size: 16px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+    .primary-button{
+      font-size: 14px;
+      width: 34%;
+    }
+
+    .navbar-item{
+      height: 40px;
+      font-size: 16px;
+      .user-welcome-text{
+        float: left;
+      }
+      .buttons{
+        float: right;
+      }
+    }
+
+    .provider-form{
+        max-width: 500px;
+        width: 96%;
+    }
+    .ant-table table{
+        width: 90%;
+        max-width: 500px;
+    }
+
+    body #app .dark-theme {
+      .ant-btn{
+        margin: 10px 2px;
+        padding: 0px 5px;
+      }
+      .ant-btn.custom-links span {
+        font-size: 15px;
+      }
+
+    }
+}
+
